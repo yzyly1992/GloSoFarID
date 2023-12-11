@@ -1,4 +1,7 @@
-# Multispectral Solar Panel Farm Image Dataset (2021-2023)
+# GloSoFarID: Global multispectral dataset for Solar Farm IDentification in satellite imagery
+
+[Zhiyuan Yang](https://github.com/yzyly1992), [Ryan Rad](#)
+
 This dataset comprises a total of 13,703 samples of multispectral satellite images captured across continents from 2021 to 2023 in various solar panel farms. The detailed metadata for this dataset is provided in the following table:  
 
 | Dataset             | Positive Sample | Negative Sample | Sum  |
@@ -22,11 +25,12 @@ The provided images showcase the RGB channel representations along with their co
 ![showcase](https://i.ibb.co/ZgZB05Y/dataset-showcase.jpg)
 
 ### Benchmarks
-We trained both the FCN and UNet models on this dataset for 50 epochs with a batch size of 16. The following presents the outcomes:
+We trained the FCN, Half-UNet and UNet models on this dataset for 50 epochs with a batch size of 16. The following presents the outcomes:
 
 | Model | IoU   | FScore |
 |-------|-------|--------|
 | FCN   | 71.81 | 82.87  |
+| Half-UNet  | 71.48 | 82.17  |
 | UNet  | 79.31 | 87.80  |
 
 

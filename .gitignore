@@ -1,1 +1,2 @@
 *.tfrecord.gz
+.DS_Store
