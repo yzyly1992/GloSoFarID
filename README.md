@@ -2,6 +2,8 @@
 
 [Zhiyuan Yang](https://github.com/yzyly1992), [Ryan Rad](#)
 
+**Download the dataset from [https://zenodo.org/records/10939100](https://zenodo.org/records/10939100)**
+
 This dataset comprises a total of 13,703 samples of multispectral satellite images captured across continents from 2021 to 2023 in various solar panel farms. The detailed metadata for this dataset is provided in the following table:  
 
 | Dataset             | Positive Sample | Negative Sample | Sum  |
@@ -21,8 +23,8 @@ Dataset spectral detail information: [Sentinel-2 Bands Info](https://developers.
 Label classes: {0: "background", 1: "solar_panel"}
 
 ### Dataset Previews
-The provided images showcase the RGB channel representations along with their corresponding mask annotations.
-![showcase](https://i.ibb.co/ZgZB05Y/dataset-showcase.jpg)
+Examples from our GloSoFarID dataset. Each row represents one sample with all 13 bands along with the ground truth mask where the gray color indicates the solar farm area.
+![showcase](https://i.ibb.co/jZDvZKG/combined-bands-info.jpg)
 
 ### Benchmarks
 We trained the FCN, Half-UNet and UNet models on this dataset for 50 epochs with a batch size of 16. The following presents the outcomes:
