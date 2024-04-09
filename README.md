@@ -3,6 +3,7 @@
 [Zhiyuan Yang](https://github.com/yzyly1992), [Ryan Rad](#)
 
 **Download the dataset from [https://zenodo.org/records/10939100](https://zenodo.org/records/10939100)**
+Dataset paper published in [arXiv:2404.05180](https://arxiv.org/abs/2404.05180)
 
 This dataset comprises a total of 13,703 samples of multispectral satellite images captured across continents from 2021 to 2023 in various solar panel farms. The detailed metadata for this dataset is provided in the following table:  
 
