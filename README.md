@@ -20,7 +20,7 @@ Input sample dimension (H, W, C): (256, 256, 13)
 Mask label dimension (H, W, C): (256, 256, 1)
 Dataset resolution: 10 meters / pixel
 Dataset spectral names: [B1, B2, B3, B4, B5, B6, B7, B8, B8A, B9, B10, B11, B12]
-Dataset spectral detail information: [Sentinel-2 Bands Info](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED#bands)
+Dataset spectral detail information: [Sentinel-2 Bands Info](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_HARMONIZED#bands)
 Label classes: {0: "background", 1: "solar_panel"}
 
 ### Dataset Previews
